@@ -2,6 +2,7 @@ plugins {
     id("com.android.application") version "8.2.2"
     id("org.jetbrains.kotlin.android") version "1.9.22"
 }
+
 android {
     namespace = "com.spendlimit.ug"
     compileSdk = 34
@@ -25,5 +26,6 @@ android {
         jvmTarget = "17"
     }
 }
+
 dependencies {
 }
